@@ -1,6 +1,5 @@
 import './style.css'
 import * as THREE from 'three'
-//import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import * as dat from 'dat.gui'
 
 //Texture loader
@@ -37,9 +36,6 @@ scene.add(plane)
 plane.rotation.x = 181
 //gui.add(plane.rotation, 'x').min(0).max(500)
 
-// Mesh
-
-// Lights
 
 const pointLight = new THREE.PointLight('#14ff14', 2)
 pointLight.position.x = .2
